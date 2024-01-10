@@ -36,20 +36,24 @@ main {
   justify-content: center;
   margin-top: 20vh;
 }
-h1 {
+.container {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  align-items: center;
+  justify-content: center;
   width: 100vh;
   height: 20vh;
   background: #000;
   color: aliceblue;
+  border-radius: 20px;
+  gap: 15px;
 }
 .random_color {
   color: #f15025;
 }
 #button {
-  border-radius: 30% 3%;
+  margin-top: 12px;
+  border-radius: 20%;
   font-size: large;
   padding: 12px 24px;
   border: 2px solid #020202;

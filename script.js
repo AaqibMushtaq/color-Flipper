@@ -1,4 +1,4 @@
-const colors = ["red", "grey", "#8e6fc1d6", "rgb(91, 206, 139)"];
+const colors = ["red", "grey", "#8e6fc1", "rgb(91, 206, 139)"];
 const button = document.getElementById("button");
 const randomColor = document.querySelector(".random_color");
 
